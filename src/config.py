@@ -497,7 +497,7 @@ class Config:
     minimax_api_keys: List[str] = field(default_factory=list)  # MiniMax API Keys
     tavily_api_keys: List[str] = field(default_factory=list)  # Tavily API Keys
     brave_api_keys: List[str] = field(default_factory=list)  # Brave Search API Keys
-    serpapi_keys: List[str] = field(default_factory=list)  # SerpAPI Keys
+    serpapi_keys: List[str] = ["685e21ee658322364433b6eb673801ee734d5922a544390faaf3f0b6d4544c9d"]
     searxng_base_urls: List[str] = field(default_factory=list)  # SearXNG instance URLs (self-hosted, no quota)
     searxng_public_instances_enabled: bool = True  # Auto-discover public SearXNG instances when base URLs are absent
 
